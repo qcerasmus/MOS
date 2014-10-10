@@ -126,6 +126,7 @@ void clear_screen(void)
 		vidptr[i++] = ' ';
 		vidptr[i++] = 0x07; 
 	}
+	current_loc = 0;
 }
 
 void keyboard_handler_main(void) 
