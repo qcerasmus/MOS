@@ -145,7 +145,7 @@ void keyboard_handler_main(void)
 			return;
 		if(keyboard_map[keycode] == '\n')
 		{
-			kprint_newline();
+			clear_screen();
 			int i;
 			char *str = "You entered: ";
 			kprint(str);
